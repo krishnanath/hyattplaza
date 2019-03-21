@@ -1,0 +1,119 @@
+<div class="page-banner">
+  <!-- <img src="/assets/images/cat-01.png" class="banner-image"> -->
+<img src="assets/hyattplaza-images/banner1.jpg" class="banner-image original-size"  >  
+
+  <div class="banner-box-shadow">
+    <div class="banner-title">
+CONTACT US
+    </div>
+  </div>
+   
+</div>
+
+
+ 
+
+
+
+<div class="cont-us">
+  <div class="form-sep">
+    <h3 class="enq">enquiry form</h3>
+    <!-- Form -->
+    <form method="post" action="/" id="form" class="validate">
+      <div class="form-field">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full-name" id="full-name"  required />
+      </div>
+      <div class="form-field">
+          <label for="phone-number">Phone number </label>
+          <input type="number" name="full-name" id="phone-number" required />
+        </div>
+      <div class="form-field">
+        <label for="email-input">Email</label>
+        <input type="email" name="email-input" id="email-input"  required />
+      </div>
+     
+      <div class="form-field">
+          <label for="email-input">Country</label>
+          <input type="dropdown" name="dropdown" id="dropdown"  required />
+        </div>
+        <div class="message">
+            <label for="message">Message</label>
+            <input type="text-field" name="email-input" id="email-input"  required />
+          </div>
+
+      <div class="submit-bt">
+        <label for=""></label>
+        <input class="submit" type="submit" value="SUBMIT" />
+      </div>
+
+<br>
+<form class="form-horizontal">
+    <div class="form-group">
+          <label>Select Country</label><br>
+          <div class="flagstrap" data-input-name="country"></div>
+      </div>
+  </form>
+    
+  <form class="form-horizontal">
+      <div class="form-group">
+          <label>Select Country</label><br>
+          <div class="flagstrap" data-input-name="country"></div>
+      </div>
+    </form>
+
+       
+
+    </form>
+    <!-- EndForm -->
+     
+
+  </div>
+  <div class="map">
+<!-- MAPST -->
+<div class="mapouter"><div class="gmap_canvas"><iframe width="500px" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=hyatt%20plaza%20qatar&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:right;height:400px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> </div>
+  </div>
+
+</div>
+<hr/>
+
+<div class="details">
+  <div class="item1">
+    <section class="enquiry"> 
+    <h4>For any type of enquire:</h4>
+    <p>Hyatt Plaza Shopping Mall Management Offices</p>
+    <p>Hyatt Plaza Shopping Mall</p>
+<p>P.O.Box 22402</p>
+<p>Doha, Quatar</p>
+<p>tel:44999666</p>
+<p>Email:info@hyattplaza.com</p>
+</section>
+    
+
+
+  </div>
+  <div class="item2">
+      <section class="enquiry"> 
+          <h4>Customer Service Desk:</h4>
+          <p>Hyatt Plaza Shopping Mall</p>
+      <p>P.O.Box 22402</p>
+      <p>Doha, Quatar</p>
+      <p>tel:44999666</p>
+      <p>Email:info@hyattplaza.com</p>
+      </section>
+
+  </div>
+
+  <div class="item3">
+    <h4>PR Contact</h4>
+    <p><b> {{enquiry[0].name}}</b></p>
+    <p>{{enquiry[0].pos}}</p>
+<p>   {{enquiry[0].mail}} </p>
+<p> {{enquiry[0].Tel}}</p>
+  
+  
+   
+
+
+  </div>
+</div>

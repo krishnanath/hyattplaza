@@ -1,0 +1,52 @@
+.vw{
+    margin-top: 333px;
+}
+
+// ALERTBOX
+
+.modal-body{
+    padding: 0 !important;
+    margin-top: 11px;
+    margin-left: 22px;
+    margin-right: 22px;
+    
+
+  }
+  .modal-content{
+      border: 1px solid;
+  }
+
+  .table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
+
+}
+.btn-alert {
+    width: 188px;
+    height: 40px;
+    background: black;
+    color: white;
+     
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "Choose file";
+    background: white;
+    
+
+}
+ 
+td {
+    width: 155px !important;
+    height: 33px !important;
+     
+}
+
+.al-in{
+    height: 40px;
+}
+
+// END ALERTBOX

@@ -1,0 +1,72 @@
+<div class="vw"></div>
+
+<div>
+  <select>
+    <option *ngFor="let emp of employees">{{ employees }}</option>
+  </select>
+</div>
+
+<button>Click</button>
+
+<button
+  type="button"
+  mdbBtn
+  color="primary"
+  class="relative waves-light"
+  (click)="basicModal.show()"
+  mdbWavesEffect
+>
+  Launch demo modal
+</button>
+
+<div
+  mdbModal
+  #basicModal="mdbModal"
+  class="modal fade"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myBasicModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form>
+          <div class="modal-body" >
+            <table class="table table-responsive-sm">
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td colspan="2"><input class="nm col-md-12 al-in" type="text" /></td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td colspan="2"><input class="col-md-12 al-in" type="text" /></td>
+                </tr>
+                <tr>
+                  <td>Upload CV</td>
+                  <td colspan="2">
+                    <div class="col-md-12">
+                      <input
+                        type="file"
+                        class="custom-file-input col "
+                        id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01"
+                      />
+                      <label class="custom-file-label " for="inputGroupFile01"
+                      ></label  >
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+ <div style="text-align:center">
+    <button class="btn-alert"> APPLY NOW</button>
+</div>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,101 @@
+<div class="view">
+  <img
+  class="banner-image original-size" 
+    src="assets/hyattplaza-images/Aboutus/Gr127.png"
+    
+    style="width:100%;"
+  />
+  <div class="mask flex-center rgba-black-light">
+    <h1 class="con white-text">About us</h1>
+  </div>
+
+
+  <div  mdbScrollSpyElement="scrollspy" id="fixclear"  class="clearfix"></div>
+ 
+</div>
+ 
+
+<div id="Div1" class="abt-info">
+  <p class="fnt" id="privacy"></p>
+</div>
+ <div   id="Div2" class="mark">
+  <h5>Marketing</h5>
+  <p class="fnt" id="marketing_des"></p>
+  <h5>Enquire now</h5>
+  <form>
+    <div class="enq-form">
+      <div class="enq-form1">
+        <div class="form-field">
+          <input
+            type="text"
+            name="full-name"
+            id="full-name"
+            placeholder="FULL NAME"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <input
+            type="email"
+            name="email-input"
+            id="email-input"
+            placeholder="EMAIL"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <input
+            type="number"
+            name="full-name"
+            id="phone-number"
+            placeholder="PHONE NUMBER"
+            required
+          />
+        </div>
+      </div>
+      <div class="enq-form2">
+        <div class="message">
+          <textarea
+            type=""
+            name="email-input"
+            id="email-input"
+            placeholder="MESSAGE"
+            required
+          ></textarea>
+        </div>
+
+        <div class="submit-bt">
+          <button>SUBMIT</button>
+        </div>
+      </div>
+    </div>
+  </form>
+ </div>
+<!--  -->
+
+ <div class="history">
+    <app-history></app-history>
+    
+</div>  
+
+<div class="mark-leas">
+  <div class="marketing">
+    <h4>marketing</h4>
+    <p id="marketing"></p>
+  
+    <!-- <button mdbScrollSpy="scrollspy"8  mdbScrollSpyLink="fixclear" id="Button1" value="Click" (click)="switchVisible()"> -->
+          <button mdbScrollSpy="scrollspy"  mdbScrollSpyLink="fixclear" id="Button1" value="Click" (click)="switchVisible()">  
+ 
+      Contact us
+    </button>
+   
+  </div>
+
+  <div class="leasing">
+    <h4>Leasing enquires</h4>
+    <p id="leasing"></p>
+   <a routerLink="/leasing">
+      <button>contact us</button>
+   </a>  
+  </div>
+</div>
